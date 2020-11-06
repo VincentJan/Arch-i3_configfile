@@ -1,8 +1,7 @@
 conky.text = [[
 ${color #DB1620}${font JetBrain Mono:size=20}ToDo${hr 2} 
 ${font JetBrain Mono:size=12}${color #9E1017}Undone${hr 1}${color}${font WenQuanYi Zen Hei Mono:size=12}
-StudentManager
-${font JetBrain Mono:size=12}${color #171B1A}Done${hr 1}${font WenQuanYi Zen Hei Mono:size=12}
+${font JetBrain Mono:size=12}${color #3c3c3c}Done${hr 1}${font WenQuanYi Zen Hei Mono:size=12}
 ${color #C4CBCF}${hr 1}
 ${font JetBrain Mono:size=12}${color #C4CBCF}Uptime: $uptime 
 Battery: -$battery_time
@@ -35,7 +34,7 @@ conky.config = {
     out_to_x = true,
     override_utf8_locale = yes,
     own_window = true,
-    own_window_class = 'Conky',
+    own_window_class = "Conky",
     own_window_type = "override",
     own_window_transparent = true,
     show_graph_range = false,

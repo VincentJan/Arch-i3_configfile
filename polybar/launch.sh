@@ -8,4 +8,4 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 # Launch polybar
 polybar default -c /home/vincent/.config/polybar/topbar.ini &
-polybar dock -c /home/vincent/.config/polybar/dock.ini &
+#polybar dock -c /home/vincent/.config/polybar/dock.ini &

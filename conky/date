@@ -1,5 +1,5 @@
 conky.text = [[
-${color #1C1C1C}${font JetBrain Mono:size=40}${time %Y}${font JetBrain Mono:size=25}${time %b %d}
+${color #fbf6f6}${font JetBrain Mono:size=40}${time %Y}${font JetBrain Mono:size=25}${time %b %d}
 
 ]]
 
